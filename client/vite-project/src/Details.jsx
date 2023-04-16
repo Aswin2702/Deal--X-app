@@ -1,11 +1,8 @@
 import HomeTop from "./Hometobbar";
 import s1 from "./assets/s2.jpeg";
 import s2 from "./assets/star.png";
-import { useNavigate } from "react-router-dom";
-
 
 const Details = () => {
-  const navigate = useNavigate();
   return (
     <div>
       <HomeTop />
@@ -30,11 +27,19 @@ const Details = () => {
                   an integrated gps system to track yourself using sharzapp
                 </span>
               </h1>
-              <h1 className='text-xl  text-white py-6  '> <span className="font-bold sp"> REVIEW: </span> 4.5 Stars</h1>
+              <h1 className='text-xl  text-white py-6  '>
+                {" "}
+                <span className='font-bold sp'> REVIEW: </span> 4.5 Stars
+              </h1>
               <img src={s2} alt='' className='w-5 h-5 px-5' />
             </div>
-            <h1 className='text-xl text-white py-6'> <span className="font-bold sp"> INITIAL PRICE : </span> $64 </h1>
-            <h1 className='text-xl text-white py-6 '><span className="font-bold sp">CURRENT PRICE :</span> $64 </h1>
+            <h1 className='text-xl text-white py-6'>
+              {" "}
+              <span className='font-bold sp'> INITIAL PRICE : </span> $64{" "}
+            </h1>
+            <h1 className='text-xl text-white py-6 '>
+              <span className='font-bold sp'>CURRENT PRICE :</span> $64{" "}
+            </h1>
           </div>
           <div className=' pb-10'>
             <label for='size' className='text-white text-xl font-bold sp'>
@@ -52,9 +57,7 @@ const Details = () => {
               <option value='8-large'>8-large</option>
               <option value='9-xl'>9-xl</option>
             </select>
-            <button className='text-center text-md text-white btn px-8 py-1 ml-5 mt-7 rounded-full'
-            onClick={() => navigate("/request")}
-            >
+            <button className='text-center text-md text-white btn px-8 py-1 ml-5 mt-7 rounded-full'>
               Request
             </button>
             <button className='text-center text-md text-white btn px-8 py-1 ml-5  mt-7 rounded-full'>

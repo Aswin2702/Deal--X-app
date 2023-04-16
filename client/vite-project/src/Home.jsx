@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 import HomeTop from "./Hometobbar";
 import "./Home.css";
-import BgVideo from "./assets/bg-video.mp4";
+import BgVideo from "./assets/bg-1.mp4";
 import sell from "./assets/clothes.jpeg";
 import shoe from "./assets/shoes.jpeg";
 import elec from "./assets/elec.jpeg";
